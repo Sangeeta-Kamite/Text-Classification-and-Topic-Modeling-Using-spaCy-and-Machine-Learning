@@ -15,10 +15,10 @@ This project focuses on text classification and topic modeling using economic ne
         5. Target Variable (relevance):
             - Convert labels to binary (yes → 1, no → 0).
 
-**2. Text Vectorization Using TF-IDF**
+2. Text Vectorization Using TF-IDF
 
      1. TF-IDF (Term Frequency - Inverse Document Frequency) converts raw text into numerical features.
-     2. **Important Parameters:**
+     2. Important Parameters:
         1. max_features=1000: Limits the vocabulary size to 1000 words.
         2. stop_words='english': Removes common English stopwords.
       Transforms text into numerical format for machine learning models.

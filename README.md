@@ -1,25 +1,26 @@
 # Text-Classification-and-Topic-Modeling-Using-spaCy-and-Machine-Learning
 This project focuses on text classification and topic modeling using economic news data.It leverages **spaCy** for **NLP** preprocessing, **TF-IDF** for **feature extraction**, and machine learning models for classification. Additionally, it applies **LDA**, **NMF**, and **LSA** for topic modeling.
 
-**1. Data Loading and Preprocessing**
-     **Dataset**: economic_news.xlsx contains headline, text, and relevance labels.
-     **Preprocessing Steps:**
-        - Combine headline and text into full_text.
-        - Convert text to lowercase.
-        - Remove special characters using regular expressions (RegEx).
-        - Use spaCy to:
+1. Data Loading and Preprocessing
+
+   1. **Dataset:** economic_news.xlsx contains headline, text, and relevance labels.
+   2. **Preprocessing Steps:**
+        1. Combine headline and text into full_text.
+        2. Convert text to lowercase.
+        3. Remove special characters using regular expressions (RegEx).
+        4. Use spaCy to:
             - Tokenize text.
             - Lemmatize words (convert them to base form).
             - Remove stopwords (common words like "the," "is," etc.).
-      **Target Variable** (relevance):
+        5. Target Variable (relevance):
             - Convert labels to binary (yes → 1, no → 0).
 
 **2. Text Vectorization Using TF-IDF**
-     TF-IDF (Term Frequency - Inverse Document Frequency) converts raw text into numerical 
-     features.
-     **Important Parameters:**
-         - max_features=1000: Limits the vocabulary size to 1000 words.
-         - stop_words='english': Removes common English stopwords.
+
+     1. TF-IDF (Term Frequency - Inverse Document Frequency) converts raw text into numerical features.
+     2. **Important Parameters:**
+        1. max_features=1000: Limits the vocabulary size to 1000 words.
+        2. stop_words='english': Removes common English stopwords.
       Transforms text into numerical format for machine learning models.
 
 **3. Text Classification**

@@ -46,6 +46,7 @@ How It Works:
 
 **5. Topic Modeling**
 Extracts hidden themes in the dataset using:
+
 **1.Latent Dirichlet Allocation (LDA)**
     - Probabilistic model that assigns words to topics.
 **2. Non-negative Matrix Factorization (NMF)**

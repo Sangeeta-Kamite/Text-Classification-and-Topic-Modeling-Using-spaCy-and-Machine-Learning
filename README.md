@@ -49,10 +49,13 @@ Extracts hidden themes in the dataset using:
 
 **1.Latent Dirichlet Allocation (LDA)**
     - Probabilistic model that assigns words to topics.
+
 **2. Non-negative Matrix Factorization (NMF)**
      - Factorizes document-term matrix into topic-based features.
+
 **3. Latent Semantic Analysis (LSA)**
     -Uses Singular Value Decomposition (SVD) to reduce dimensionality.
+
 **Visualization**
   - Extracts top words from each topic.
   - Helps understand dominant themes in economic news.
